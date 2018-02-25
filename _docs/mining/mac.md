@@ -11,15 +11,11 @@ Any modern PC with the latest OS updates should work running a full QRL node.
 * Linux / Unix / mac based systems should work *YMMV*
 * Any x86 or x64 based processor
 * Support for AES-NI is required for full nodes
- * You can pool mine with non-AES-NI processors, See the list of community run [pools](/Pool-List.md) FIX-ME with correct link
- * GPU Mining is posible via pool mining.
+    * You can pool mine with non-AES-NI processors, See the list of community run [pools](#) FIX-ME with correct link
+    * GPU Mining is posible via pool mining.
 * HDD/SSD large enough to store the BlockChain at current size, plus future growth...
 
-You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat:
-
-[discord.gg/RcR9WzX](https://cnhv.co/1mfxv)
-Lots of friendly people over there ready to help.
-              
+You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX](discord.gg/RcR9WzX) Lots of friendly people over there ready to help.   
 
 ## Install 
 
