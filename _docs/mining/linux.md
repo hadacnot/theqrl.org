@@ -14,10 +14,10 @@ running a full QRL node. There are a few requirements that you should take into 
 * Any x86 or x64 based processor
 * Support for AES-NI is required for full nodes
     * You can pool mine with non-AES-NI processors, See the list of community run [pools](#) FIX-ME with correct link
-    * GPU Mining is posible via pool mining.
+    * GPU Mining is posible via community ran mining pool.
 * HDD/SSD large enough to store the BlockChain at current size, plus future growth...
 
-You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX](discord.gg/RcR9WzX) Lots of friendly people over there ready to help.   
+You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [QRL discord Chat](discord.gg/RcR9WzX) Lots of friendly people over there ready to help.   
               
 **Plan for the future!**
 
@@ -25,7 +25,7 @@ Make sure the computer you are using has enough power to handle the load of the 
 
 * * *
 
-### Install QRL
+## Install QRL
 
 It's best to start with a fresh install of Ubuntu 16.04. If you have dependency issues with other software you will need to work through it then come back. You can always boot into a Linux live persistent USB or similar and run the mining node on the computer without modifying the PC (other than the CPU cycles used)
 

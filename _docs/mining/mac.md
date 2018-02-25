@@ -12,10 +12,16 @@ Any modern PC with the latest OS updates should work running a full QRL node.
 * Any x86 or x64 based processor
 * Support for AES-NI is required for full nodes
     * You can pool mine with non-AES-NI processors, See the list of community run [pools](#) FIX-ME with correct link
-    * GPU Mining is posible via pool mining.
+    * GPU Mining is posible via community ran mining pool.
 * HDD/SSD large enough to store the BlockChain at current size, plus future growth...
 
-You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX](discord.gg/RcR9WzX) Lots of friendly people over there ready to help.   
+You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [QRL discord Chat](discord.gg/RcR9WzX) Lots of friendly people over there ready to help.   
+              
+**Plan for the future!**
+
+Make sure the computer you are using has enough power to handle the load of the mining operation. You will also need enough storage to keep the chain as it grows in the future. Recommend a few hundred gig HDD/SSD to sync the chain on long term to be safe.
+
+* * * 
 
 ## Install 
 
@@ -49,7 +55,7 @@ brew install cmake python3 swig boost hwloc
 ```
 * * *
 
-### Install QRL
+## Install QRL
 
 We have some options for installing the QRL package. We can either use the package management system for python3 `pip3` **or** we can install from sources getting the files from GitHub.
 
