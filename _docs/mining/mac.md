@@ -92,7 +92,7 @@ Also later if you want to update to get the latest changes from the developers i
 
 * * *
 
-### Setup Wallet
+## Setup Wallet
 
 Before we start there are a few things to know about.
 
@@ -209,7 +209,7 @@ Save the Mmneonic to a cold wallet file and when you need to move coins, restore
 
 * * *
 
-### Recover Your Wallet
+## Recover Your Wallet
 
 If you loose your wallet, the mining rig catches fire, or worse... Don't fret! You still have the ability to recover your Quanta as long as you've saved the **hexseed** or **mnemonic phrase** somewhere safe.
 
@@ -239,7 +239,9 @@ We can add the flag `--seed-type [hexseed|mnemonic]` to change the type of recov
 # With pip3
 
 qrl --seed-type mnemonic
+
 # OR
+
 qrl --seed-type hexseed
 ```
 
@@ -256,7 +258,7 @@ You can now interact with your quanta as normal.
 
 * * *
 
-### Start the Node
+## Start the Node
 
 We need to move the `slaves.json` file we created above to our mining pc, and then start the node. 
 
@@ -292,7 +294,7 @@ By default QRL begins mining to the wallet defined in the slaves.json file using
 
 * * *
 
-### Config File
+## Config File
 
 The default settings for the code are burried inside of the core directory. Instead of changing the settings there where an update would overwrite the changes create your own, add a file to your `~/.qrl` folder titled `config.yml`
 
@@ -302,14 +304,12 @@ You can grab a copy of this file directly from here with:
 
 FIXME - get right link for file download, get hash from file served as well
 
-`wget https://qrl.co.in/public/config.yml`  
+`wget https://theqrl.org/public/config.yml`  FIXME get file location figured out
 
 Move it to your ~/.qrl folder  
 `mv config.yml ~/.qrl`  
 
-You can download a copy of this file here as well [config.yml](https://qrl.co.in/public/config.yml)  
-
-FIXME - get right link for file download, get hash from file served as well
+You can download a copy of this file here as well [config.yml](https://qrl.co.in/public/config.yml)  FIXME get file location figured out - get hash from file served as well
 
 #### Edit the config.yml
 
@@ -384,7 +384,7 @@ chain_state_broadcast_period : 30 # must be less than ping_timeout
 
 * * *
 
-### Node Commands
+## Node Commands
 
 Some Handy Commands to query against your node. 
 
@@ -402,7 +402,7 @@ grep Solution Found ~/.qrl/qrl.log |wc -l
 
 * * *
 
-### QRL Help
+## QRL Help
 
 You can get this list of help from the command line by simply entering
 
