@@ -6,9 +6,7 @@ tags: mining
 
 Any modern PC with the latest OS updates should work running a full QRL node.
 
-**Minimum Requirements to Run QRL**
-
-### Minimum Requirements
+## Minimum Requirements
 
 * Linux / Unix / mac based systems should work *YMMV*
 * Any x86 or x64 based processor
@@ -23,7 +21,7 @@ You should have a basic understanding of the CLI before attempting to set this u
 Lots of friendly people over there ready to help.
               
 
-### Install 
+## Install 
 
 #### brew
 
