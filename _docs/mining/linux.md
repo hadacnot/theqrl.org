@@ -16,10 +16,7 @@ running a full QRL node. There are a few requirements that you should take into 
 * Windows users using the built in FIX-ME with correct info
 * HDD large enough to store the BlockChain at current size, plus future growth                
 
-
-You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough.
- If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX ](discord.gg/RcR9WzX )
- Lots of friendly people over there ready to help.
+You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat: [discord.gg/RcR9WzX ](discord.gg/RcR9WzX ) Lots of friendly people over there ready to help.
               
 **Plan for the future!**
 
@@ -48,9 +45,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 ## Install the required packages for QRL
 
-sudo apt-get -y install swig3.0 python3-dev python3-pip build-essential 
-
-sudo apt-get -y cmake pkg-config libssl-dev libffi-dev libhwloc-dev libboost-dev
+sudo apt-get -y install swig3.0 python3-dev python3-pip build-essential cmake pkg-config libssl-dev libffi-dev libhwloc-dev libboost-dev
 ```
 
 #### pip3

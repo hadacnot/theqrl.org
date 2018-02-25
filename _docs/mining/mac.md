@@ -4,38 +4,18 @@ categories: mining
 tags: mining
 ---
 
-
-![logo](/assets/logo.png)
-
-
-![QRL Logo](assets/QRLnotextPink.png)
-
-# Mac Full Node Guide
-
-* [Home](#node-setup-instructions)
-* [Install QRL](#install-qrl)
-* [Wallet](#setup-wallet)
- * [Create New Wallet](#create-new-wallet)
- * [Get Mnemonic](#mem)
- * [Recover Wallet](#Recwal)
-* [Generate Slaves.json](#slave)
-* [Start Node](#node)
-* [Handy Commands](#commands)
-* [Install From Source](#source)
-* [User config.yml File](#config)
-
-## Node Setup Instructions
-
 Any modern PC with the latest OS updates should work running a full QRL node.
 
 **Minimum Requirements to Run QRL**
 
+### Minimum Requirements
+
 * Linux / Unix / mac based systems should work *YMMV*
 * Any x86 or x64 based processor
 * Support for AES-NI is required for full nodes
- * You can pool mine with non-AES-NI processors, See the list of [pools](/Pool-List.md) FIX-ME with correct link
-* Windows users using the built in FIX-ME with correct info
-* HDD large enough to store the BlockChain at current size, plus future growth                
+ * You can pool mine with non-AES-NI processors, See the list of community run [pools](/Pool-List.md) FIX-ME with correct link
+ * GPU Mining is posible via pool mining.
+* HDD/SSD large enough to store the BlockChain at current size, plus future growth...
 
 You should have a basic understanding of the CLI before attempting to set this up, it isn't really all that tough. If you have issues please drop into the Discord chat:
 
@@ -43,11 +23,13 @@ You should have a basic understanding of the CLI before attempting to set this u
 Lots of friendly people over there ready to help.
               
 
-### Install brew
+### Install 
 
-If you dont have brew, install it with this command:  
+#### brew
 
-```bash
+``` bash
+# If you dont have brew already, install it with this command:  
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
 ```
 
@@ -58,15 +40,19 @@ You can also follow the instructions found at the [brew main page](https://brew.
 #### Update
 
 Now that you have brew installed, update your package lists:  
-```bash
+``` bash
+# Update brew package lists
+
 brew update
 ```
 
 #### Dependencies
 
-Install the required dependencies:  
-brew install cmake python3 swig boost hwloc
+``` bash
+# Install the required dependencies:  
 
+brew install cmake python3 swig boost hwloc
+```
 * * *
 
 ### Install QRL
