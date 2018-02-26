@@ -19,6 +19,7 @@ The following dependencies are required for a functional local development envir
 * [NodeJS](https://nodejs.org/en/) v8.9.3
 * [Meteor](https://www.meteor.com/install)
 * [qrl-electrify](https://www.npmjs.com/package/qrl-electrify)
+
 ```bash
 # Install qrl-electrify
 
