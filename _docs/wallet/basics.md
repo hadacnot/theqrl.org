@@ -23,7 +23,7 @@ The following dependencies are required for a functional local development envir
 # Install qrl-electrify
 
 npm install -g qrl-electrify
-``
+```
 
 [chimp](https://github.com/xolvio/chimp)
 
