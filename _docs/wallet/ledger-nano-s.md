@@ -11,6 +11,11 @@ This will be a hot topic based on the chat interest from discord.
 
 ---
 
-#### Ledger Nano S Info
+## Ledger Nano S Info
+
+#### Links
+* [https://www.ledgerwallet.com/](https://www.ledgerwallet.com/)
+* [https://github.com/LedgerHQ/ledger-nano-s](https://github.com/LedgerHQ/ledger-nano-s)
+
 
 

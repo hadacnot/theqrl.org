@@ -19,9 +19,9 @@ You can run a full node in Windows utilizing the Windows Subsystytem for Linux. 
 
 * * *
 
-## Windows Subsystem for Linux QRL Install
+## WSL - QRL Install
 
-The procedure to installing the qrl full node in WSL is the exact same as it is in ubuntu or mac osx. For full documentationa and how to please see the guide located at [Linux Full Node](/docs/mining/linux).
+The procedure to installing the qrl full node in WSL is the exact same as it is in ubuntu or mac osx. For full documentation and how-to please see the guide located at [Linux Full Node](/docs/mining/linux).
 
 Once you have the WSL system setup and running ubuntu proceed to the linux guide and begin running the full node. 
 
@@ -29,11 +29,12 @@ Once you have the WSL system setup and running ubuntu proceed to the linux guide
 
 ## GPU Mining
 
-FIXME Add details about GPU mining and pool mining on windows here.
+**FIXME Add details about GPU mining and pool mining on windows here.**
 
 * What programs work
 * How to run them
 * Where to find pools
 * Creating a wallet
 
+* * *
 
