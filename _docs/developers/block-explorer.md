@@ -8,6 +8,10 @@ tags: developers
 
 ---
 
+## Setup Local BlockExplorer
+
+Instructions for setting up a local blockexplorer.
+
 Scott mentioned in the discord chat:
 
 ```
