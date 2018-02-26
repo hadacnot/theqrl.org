@@ -19,6 +19,16 @@ The following dependencies are required for a functional local development envir
 * [NodeJS](https://nodejs.org/en/) v8.9.3
 * [Meteor](https://www.meteor.com/install)
 * [qrl-electrify](https://www.npmjs.com/package/qrl-electrify)
+* [chimp](https://github.com/xolvio/chimp)
+
+If you are using windows you will need to instal a few extra packages.
+
+**Windows Only**
+* [Build Tools for Visual Studio 2017](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017)
+* [node-gyp](https://github.com/nodejs/node-gyp
+
+
+#### Install Required
 
 ```bash
 # Install qrl-electrify
@@ -26,7 +36,9 @@ The following dependencies are required for a functional local development envir
 npm install -g qrl-electrify
 ```
 
-[chimp](https://github.com/xolvio/chimp)
+#### Chimp.js
+
+Instructions and information for chimp can be found over at the [chimp github](https://github.com/xolvio/chimp)
 
 ```bash
 # Install chimp
@@ -34,15 +46,17 @@ npm install -g qrl-electrify
 npm install -g chimp
 ```
 
+* * *
 
+#### Install Windows Only Required
 
-**Windows Only**
 [Build Tools for Visual Studio 2017](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017)
 
 Windows Only - [node-gyp](https://github.com/nodejs/node-gyp)
 
 	npm install -g node-gyp
 
+* * *
 
 ## Install qrl-wallet
 
