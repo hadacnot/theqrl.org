@@ -17,7 +17,6 @@ We will also use the "anonymity" features that come packaged to go and grab the 
 
 * Pc to download tails with firefox or chrome installed
 * USB Stick with over 8Gb of storage
-	
 
 
 * * * 
