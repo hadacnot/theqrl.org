@@ -7,6 +7,7 @@ tags: mining
 Any modern PC with Ubuntu (16.04) or Linux/Unix based systems should work 
 running a full QRL node. There are a few requirements that you should take into consideration.
 
+FIXME Add Firewall setup and port requirements for node
 
 ## Minimum Requirements
 
@@ -24,6 +25,25 @@ You should have a basic understanding of the CLI before attempting to set this u
 Make sure the computer you are using has enough power to handle the load of the mining operation. You will also need enough storage to keep the chain as it grows in the future. Recommend a few hundred gig HDD/SSD to sync the chain on long term to be safe.
 
 * * *
+
+#### FIXME - 
+
+**Add memory requirements to writeup. Add swap for lower ram devices.
+
+https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04
+
+```bash
+#create swap
+
+sudo fallocate -l 1G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
+
+# add to fstab
+sudo cp /etc/fstab /etc/fstab.bak
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+sudo swapon --show
+```
+
 
 ## Install QRL
 
@@ -67,19 +87,31 @@ The error should be inside.
 #### Git
 
 If you want to run from the repo you can clone it to the local file system with:  
+
 ```bash 
+
 cd ~/  
+
 git clone https://github.com/theQRL/QRL.git
 ```
 
+This allows you to run from a local directory and gives some freedom to change some of the defaults. Later if you want to update to get the latest changes from the developers it's a simple `git pull` from inside the QRL directory
 
-This allows you to run from a local directory and gives some freedom to change some of the defaults.
 
-Also later if you want to update to get the latest changes from the developers it's a simple `git pull` from inside the QRL directory
+#### FIXME - Do we need this?
+We need to install a few more dependencies. We can do this with 
+
+```bash
+cd ~/QRL/
+
+pip3 install -r requirements.txt
+```
 
 * * *
 
 ### Setup Wallet
+
+**FIXME - Add Details here clarifying what the slaves.json is, and what role it plays. Add Removal of the wallet file to mining guide or create from another box - FIXME
 
 Before we start there are a few things to know about.
 
@@ -155,6 +187,10 @@ Wallet idx [0]:
 
 #### Generate New slaves.json File
 
+**FIXME - Get details here about what the slaves.json is for, how to use any node to generate against, and get correct IP address here.**
+
+**FIXME - Can this be served up through DNS? so when node changes IP user can still connect?**
+
 Using the wallet we just created lets create some files we can use to mine with. We will generate the file against a know working node. You can switch the ip address with a trusted open node
 
 ##### With pip3
@@ -162,7 +198,7 @@ Using the wallet we just created lets create some files we can use to mine with.
 ```bash
 # Generate slaves.json file
 
-qrl -r --host 104.251.219.215 slave_tx_generate` 
+qrl -r --host 104.251.219.215 slave_tx_generate 
 ```
 
 ##### From Sources
@@ -185,6 +221,8 @@ Access type [0]:        # Do we want to mine or transfer coins?
                         # 1 Only mining permissions to slave wallet. 
                             # This setting allows incoming only transfers (SAFE).
 Fee [0.0]: 0            # How much fee are we paying
+
+#FIXME What is this fee for? Give more details to what this is and why it does things
 ```
 
 This will generate a `slaves.json` file for you and put into the directory you are in. We need to move it to the `.qrl` folder of whatever computer we plan to mine with. 
